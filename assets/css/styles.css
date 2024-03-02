@@ -1,0 +1,25 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.landing-page {
+    width: auto;
+    height: 1080px;
+}
+
+.background {
+    width: inherit;
+    height: inherit;
+    background-image: url(../images/space.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    font-size: 6rem;
+    font-weight: 800;
+    color: #fff;
+}
+
