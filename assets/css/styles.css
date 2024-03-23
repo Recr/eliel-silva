@@ -5,21 +5,71 @@
 }
 
 .landing-page {
-    width: auto;
-    height: 1080px;
+    
 }
 
-.background {
+.landing-page {
+    
     width: inherit;
     height: inherit;
     background-image: url(../images/space.jpg);
+    
     background-size: cover;
-    background-position: center;
+    background-position:center ;
+    width: auto;
+    height: 100vh;
 }
 
-p {
-    font-size: 6rem;
-    font-weight: 800;
+.binary-effect {
+    height: 800px;
+    
+    
+}
+
+.presentation {
+    font-size: 6dvi;
+    font-weight: 700;
     color: #fff;
+    padding-left: 100px;
+    padding-top: 100px;
+    /* background: -webkit-radial-gradient( darkblue, #6998ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-family: "Rubik", sans-serif;
 }
 
+#second-line{
+    padding: 0;
+    margin-left: 200px;
+}
+
+
+.button {
+    display: flex;
+    flex-direction: row;
+}
+
+#start-button {
+    cursor: pointer;
+    margin: 150px;
+    width: 175px;
+    height: 100px;
+    font-size: 35px;
+    color: white;
+    background: transparent;
+    border-image: linear-gradient(to right, rgb(255, 255, 255), #767676) 1;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 30px;
+    margin-top: 150px;
+}
+
+.social img {
+    height: 40px;
+}
